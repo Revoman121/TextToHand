@@ -4,6 +4,10 @@ import pytesseract
 import os
 from PIL import Image, ImageDraw, ImageFont
 
+font_path = "fonts/Lucida Handwriting Italic.ttf"
+font = ImageFont.truetype(font_path, size=30)
+
+
 def convert_to_handwritten_text(image):
     # Save the uploaded image temporarily
     temp_image_path = "temp_image.jpg"
