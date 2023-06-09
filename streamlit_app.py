@@ -4,7 +4,7 @@ import pytesseract
 import os
 from PIL import Image, ImageDraw, ImageFont
 
-font_path = "fonts/Lucida Handwriting Italic.ttf"
+font_path = "Lucida Handwriting Italic.ttf"
 font = ImageFont.truetype(font_path, size=30)
 
 
