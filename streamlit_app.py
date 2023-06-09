@@ -48,7 +48,7 @@ def main():
             # Create an image with Lucida Handwriting font and the converted text
             image = Image.new("RGB", (500, 500), color="white")
             draw = ImageDraw.Draw(image)
-            font = ImageFont.truetype("/Users/adityadeore/Desktop/lucida-handwriting/Lucida Handwriting Italic.ttf", size=30)  # Replace "path_to_lucida_handwriting_font" with the actual file path
+            font = ImageFont.truetype("Lucida Handwriting Italic.ttf", size=30)  # Replace "path_to_lucida_handwriting_font" with the actual file path
             draw.text((10, 10), text, font=font, fill="black")
 
             # Display the handwritten text image
